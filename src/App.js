@@ -2,11 +2,11 @@ import {
   BrowserRouter,
   Switch,
   Route,
-} from "react-router-dom/cjs/react-router-dom.min";
-import { Home } from "./pages/home/Home";
-import { Login } from "./pages/login/Login";
-import { Signup } from "./pages/signup/Signup";
-import { Navbar } from "./pages/components/Navbar";
+} from "react-router-dom";
+import  Home  from "./pages/home/Home";
+import  Login  from "./pages/login/Login";
+import  Navbar  from "./pages/components/Navbar";
+import Signup from './pages/signup/Signup'
 // import './App.css'
 
 function App() {

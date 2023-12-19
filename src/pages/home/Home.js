@@ -1,7 +1,10 @@
+// styles
 import styles from './Home.module.css'
 
-export const Home = () => {
+export default function Home() {
   return (
-    <div>Home</div>
+    <div>
+      Home
+    </div>
   )
 }
